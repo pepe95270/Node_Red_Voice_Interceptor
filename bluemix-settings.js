@@ -57,7 +57,7 @@ var settings = module.exports = {
     httpStatic: path.join(__dirname,"public"),
 
     functionGlobalContext: {
-        fs:require('fs'),
+        fs:require('fs')
     },
 
     // Configure the logging output
